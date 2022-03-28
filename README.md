@@ -1,4 +1,5 @@
 # HLS_Lab_B_Loop_Reorder
+Briefly introduce Lab B loop reorder.
 # Algorithm
 Computers usually have multiple cache layers between the processor and main memory, often called memory hierarchy. If you access the values ​​in the cache smoothly, you will end up with better performance than random access data.
 In C/C++, arrays are usually stored in the row direction, which means that memory stores all values ​​adjacent to each other for each row in the matrix.
@@ -9,3 +10,12 @@ Consider change the j order and k order. In each iteration, since the values ​
 ![image](https://user-images.githubusercontent.com/96122960/160431096-0d83b30a-a769-4161-9a33-62041271489e.png)
 ![image](https://user-images.githubusercontent.com/96122960/160431141-5d7e643a-2ad4-4500-bee4-6db455edfcfa.png)
 # Code
+<readA:
+    for (int itr = 0, i = 0, j = 0; itr < size * size; itr++, j++) {
+#pragma HLS LOOP_TRIPCOUNT min = c_size* c_size max = c_size * c_size
+        if (j == size) {
+            j = 0;
+            i++;
+        }
+        A[i][j] = in1[itr];
+    }>
