@@ -66,7 +66,7 @@ Write C
     }
 ```
 # Build Flow
-Refer to the file below, and change the argument in 3.2.2 to 'binary_container_1.xclbin'
+Refer to the file below, and change the argument in 3.2.2 to 'binary_container_1.xclbin' <br>
 [2021.2-Workbook-Lab3.pdf](https://github.com/rhsuanwang/HLS_Lab_B_Loop_Reorder/files/8364267/2021.2-Workbook-Lab3.pdf)
 
 # Result
