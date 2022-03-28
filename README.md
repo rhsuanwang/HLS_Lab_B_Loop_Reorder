@@ -67,6 +67,8 @@ Write C
 ```
 # Build Flow
 Refer to the file below, and change the argument in 3.2.2 to 'binary_container_1.xclbin'
+[2021.2-Workbook-Lab3.pdf](https://github.com/rhsuanwang/HLS_Lab_B_Loop_Reorder/files/8364267/2021.2-Workbook-Lab3.pdf)
+
 # Result
 ![image](https://user-images.githubusercontent.com/96122960/160433760-cc8630f7-e926-408a-b08b-5d631c69fbd6.png)
 ![image](https://user-images.githubusercontent.com/96122960/160433787-0c118c99-5972-4ef9-806f-d8a09fda3bf6.png)
